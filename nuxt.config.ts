@@ -24,5 +24,10 @@ export default defineNuxtConfig({
                login: "/admin/login",
                include: ["/admin(/.*)?"],
           },
+          cookieOptions: {
+               maxAge: 60 * 60 * 8,
+               sameSite: "lax",
+               secure: true,
+          },
      },
 });

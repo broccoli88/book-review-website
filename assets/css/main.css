@@ -1,1 +1,12 @@
 @import "tailwindcss";
+
+/* FONTS:
+https://www.pagecloud.com/blog/best-google-fonts-pairings?ref=dailydev
+
+- Yeseva One
+- Josefin Sans
+
+*/
+
+@theme {
+}
